@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BACKEND_URL = axios.create({
-  baseURL: "http://localhost:4002/api/v1/noteapp/",
+  baseURL: "https://mynotes-backend-2dwp.onrender.com/api/v1/noteapp/",
   headers: {
     "Content-Type": "application/json",
   },
